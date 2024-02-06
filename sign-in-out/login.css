@@ -1,0 +1,120 @@
+@import url("./setup.css");
+
+html {
+  height: 100vh;
+  display: flex;
+  flex: 1;
+}
+
+body {
+  background-image: url("./assets/plant1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  font-size: 50px;
+  text-align: center;
+
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+#arrow {
+  width: 20px;
+  length: 20px;
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: flex-start;
+  margin: 5%;
+}
+#recycleicon {
+  display: flex;
+  align-items: center;
+  width: 90px;
+  length: 90px;
+  justify-content: center;
+  margin: 20% 40%;
+}
+.whitebox {
+  width: 100%;
+  length: 60vh;
+  background-color: white;
+  border: 10px solid white;
+  border-top-left-radius: 15%;
+  padding-top: 15%;
+}
+.whitebox h2 {
+  color: green;
+}
+.whitebox p {
+  color: black;
+  font-size: 1rem;
+}
+label {
+  color: black;
+  font-size: 15px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 11%;
+  padding-right: 8%;
+  margin-top: 3%;
+  font-size: 13px;
+}
+.forget {
+  font-size: 15px;
+  color: black;
+  display: flex;
+  justify-content: end;
+  padding-right: 12%;
+  margin-top: 3%;
+  font-size: 13px;
+}
+.primary-btn .login {
+  color: white;
+  border-radius: 15%;
+  font-size: 20px;
+  background-color: green;
+  padding: 0.5% 30%;
+}
+input[type="email"] {
+  width: 300px;
+  border: none;
+  background-color: rgba(189, 231, 189, 0.452);
+  padding: 2%;
+  border-radius: 7%;
+}
+input[type="password"] {
+  width: 300px;
+  border: none;
+  background-color: rgba(189, 231, 189, 0.452);
+  padding: 2%;
+  border-radius: 7%;
+}
+.parent {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 44%;
+}
+.primary-btn .footer {
+  padding-top: 2%;
+  font-size: 10px;
+}
+
+.primary-btn a {
+  color: black;
+}
+.primary-btn:hover {
+  border: 2px solid var(--light-green);
+  background-color: transparent;
+  color: var(--light-green);
+}
+.primary-btn {
+  border: 2px solid transparent;
+  transition: all 0.3s ease-in-out;
+}
+.primary-btn {
+  background-color: var(--light-green);
+}

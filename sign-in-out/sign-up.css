@@ -1,0 +1,74 @@
+@import url("./setup.css");
+
+html {
+  height: 100vh;
+  display: flex;
+  flex: 1;
+}
+
+body {
+  background-image: url("./assets/plant1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  font-size: 50px;
+  text-align: center;
+
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+#arrow {
+  width: 20px;
+  length: 20px;
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: flex-start;
+  margin: 5%;
+}
+p {
+  font-size: 25px;
+  padding: 5% 0;
+}
+.whitebox {
+  background-color: white;
+  border-top-left-radius: 15%;
+  padding-top: 15%;
+}
+.policy {
+  color: black;
+  font-size: 10px;
+  padding-bottom: 58%;
+}
+
+.footer {
+  padding-top: 2%;
+  font-size: 10px;
+  color: black;
+}
+form .input {
+  width: 300px;
+  border: none;
+  background-color: rgba(189, 231, 189, 0.452);
+  padding: 2%;
+  border-radius: 7%;
+}
+.primary-btn a {
+  color: black;
+}
+.primary-btn:hover {
+  border: 2px solid var(--light-green);
+  background-color: transparent;
+  color: var(--light-green);
+}
+.primary-btn {
+  border: 2px solid transparent;
+  transition: all 0.3s ease-in-out;
+}
+.primary-btn {
+  background-color: var(--light-green);
+  
+}

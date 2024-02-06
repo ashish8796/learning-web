@@ -1,0 +1,84 @@
+@import url("./setup.css");
+
+html {
+    height: 100vh;
+    display: flex;
+    flex: 1;
+}
+
+body {
+  background-image: url("./assets/plant1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+  /* width: 100%; */
+  /* height: 100%;
+  max-width: 600px;
+  max-height: 720px; */
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  padding: 1rem;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+
+
+.hero {
+    flex: 2;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.hero h1 {
+    text-align: left;
+}
+
+
+section {
+    flex: 1
+}
+
+.primary-btn {
+    border: 2px solid transparent;
+    transition: all 0.3s ease-in-out;
+}
+
+.primary-btn:hover {
+    border: 2px solid var(--light-green);
+    background-color: transparent;
+}   
+
+.primary-btn:hover a {
+    color: var(--white);
+}
+
+.secondary-btn {
+    background-color: var(--light-green);
+}
+
+.secondary-btn a {
+    color: var(--white);
+}
+.secondary-btn:hover{
+    border: 2px solid var(--white);
+    background-color: transparent;
+}
+.secondary-btn {
+    border: 2px solid transparent;
+    transition: all 0.3s ease-in-out;
+}
+  /* .secondary-btn:hover a {
+    color: var(--light-green);
+
+.secondary-btn:hover {
+    background-color: var(--white);
+}
+
+.secondary-btn:hover a {
+    color: var(--light-green);
+} */
