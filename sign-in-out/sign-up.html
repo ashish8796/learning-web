@@ -21,19 +21,19 @@
             <h1>Register</h1>
             <p>Create Your New Account</p>
           </div>
-          <form >
+          <form id="form">
             <div class="whitebox">
                 <input class="input"
                   type="text"
                   name="name"
-                  id="name"
+                  id="firstName"
                   placeholder="First Name"
                 />
                 <br />
                 <input class="input"
                   type="text"
-                  name="name"
-                  id="name"
+                  name="lastName"
+                  id="lastName"
                   placeholder="Last Name"
                 />
                 <br />
@@ -54,13 +54,15 @@
                 <input class="input"
                   type="password"
                   name="password"
-                  id="password"
+                  id="confirmPassword"
                   placeholder="Confirm Password"
                 />
+                <button id="sign-up" type="submit">
+                  Sign up
+                </button>
           </form>
           <p class="policy">By Signing you agree to our Terms of use <br> and privacy Policy</p>
           <div class="btn primary-btn">
-            <a href="#"> Sign up </a>
             </div>
             <p class="footer">
              Already have an account?<span>
@@ -70,5 +72,7 @@
           </div>
           
           </section>
+
+          <script src="./signup.js"></script>
         </body>
 </html>
